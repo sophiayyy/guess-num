@@ -1,6 +1,6 @@
 import random
-start = input("請輸入開始值:")
-end = input("請輸入結束值:")
+start = input("請輸入隨機數字開始值:")
+end = input("請輸入隨機數字結束值:")
 start = int(start)
 end = int(end)
 r = random.randint(start, end)
