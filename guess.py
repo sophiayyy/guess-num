@@ -4,7 +4,9 @@ count = 0
 while r <= 100:
 	count += 1
 	ans = input("1~100,請猜一個數字:")
-	if int(r) == int(ans):
+	if int(ans) > 100:
+		print("請輸入1~100的數字")
+	elif int(r) == int(ans):
 		print("終於答對了!")
 		print("這是你猜的第", count, "次!")
 		break
